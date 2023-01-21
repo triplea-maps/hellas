@@ -1,0 +1,4 @@
+map_name: hellas
+games:
+- {game_name: 'Hellas: Athens vs. Sparta (beta)', file_name: hellas.xml}
+version: 0

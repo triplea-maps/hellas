@@ -1,0 +1,1138 @@
+<html>
+	<body bgcolor="#ffffff">
+	<table border="1" cellpadding="10" width="100%">
+	<tr>
+		<td>
+			<center>
+			<font face="Copperplate Gothic Bold, sans-serif"><font size=6>Hellas: Athens vs. Sparta</font>
+			<br>
+			<br>
+			<font style="font-size: 11pt">A TripleA game by <a href="mailto:humbabba@gmail.com?subject=Hellas">humbabba</a>
+			<br>
+			v0.9.7 (beta)
+			<BR>
+			<img src="images/map_snippet.jpg"/>
+			
+			<BR>
+			<BR>
+			
+<i>Note: Players will probably want to disable chance-roll notifications under Game>>User Notifications. The game contains many chance rolls, and outcomes are otherwise noted.</i>
+</font></font></center><br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"Your empire is now like a tyranny: It may have been wrong to take it; it is certainly dangerous to let it go." - Pericles defends his pro-war policy to the Athenians, 430 BCE. Thucydides' <i>History of the Peloponnesian War</i>, II, 63.
+		</td>
+	</tr>
+</table>
+<br>
+<font face="Calibri, sans-serif"><font size=4>
+The Peloponnesian War, fought primarily between the powerful city-states of Athens and Sparta from 431 to 404 BCE, was the greatest armed conflict the civilized world had ever seen. As leaders in the Persian War, which freed the Greeks from the Persian Empire to the east, both emerged as super powers of the day, and it was perhaps inevitable that they'd go to war for the rulership of all Hellas, as they called the Greek world.
+<br><br>
+<font size=3>- Much of the game is based on a reading of Thucydides' <i>History of the Peloponnesian War</i>. The "historical notes" section is for players curious about the historical justification for some of the game mechanics.</font>
+<br><br>
+<b>Overview</b><br>
+This is a game of economic and political warfare as well as military. The sides are very different - broadly, Sparta has a bigger army while Athens has more ships and more money. Athens controls many small cities around the Aegean, while Sparta's power is concentrated in fewer cities, mostly in the Peloponnese.
+<br><br>
+Each also has smaller states on its side - at first. Italy, Corcyra, and Thessaly start allied with Athens, while Sicily and Macedonia are on Sparta's side at the beginning of the game. Allegiances may change. And there are two small states - Argos and Crete - which start neutral, but may take sides as the war progresses.
+<br><br>
+Many political actions are open to players, and resources need to be spent on embassies to other states to achieve certain advantages, or bring sorrow to your enemies.
+<br><br>
+<b>The map</b><br>
+The map represents part of the eastern Mediterranean and 101 of the cities present in the mid-5th century BCE. The territories players operate in are larger circles designating city sites, or smaller circles called way points. Lines connect the circles - travel is only possible between circles so connected.
+<br><br>
+Ownership of territories is represented by players' colors. All cities and way points are controlled by players except the pan-Hellenic sanctuaries of Delphi and Delos, represented as temples:
+<br>
+<br>
+<img src="images/delphi.jpg"/>
+<br><br>
+All sides' troops may move through sanctuaries freely. Troops may not end a move in a sanctuary. <u>Troops still in a sanctuary after a move are taken out of play</u>.
+<br><br>
+A handful of cities and way points start the game neutral, and are colored gray:
+<br>
+<br>
+<img src="images/neutral.jpg"/>
+<br><br>
+The cities have small armies in them, which will not attack anyone but will defend if invaded. Players may take over neutral territories - the cost for violating neutrality is 5 PUs per territory.
+<br><br>
+<u>Terrain</u><br>
+There are three types of terrain: inland, coast, and sea.
+<br><br>
+Most cities and way points are coastal. Some cities and way points are inland. Some way points are sea.
+<br><br>
+To find out what terrain a given territory is, mouse over it. Its name and terrain type will display in the info bar to the lower left of the screen:
+<br><br>
+<img src="images/terrain_name.png"/>
+<br><br>
+There are no water territories, technically. Instead, units - both foot troops and ships - are moved over seas via way points and coastal cities.
+<br><br>
+Ships cannot move <i>inland</i>. Both ships and foot troops may move in <i>coast</i> territories. Both ships and foot troops may move through <i>sea</i>, but only ships may end a move there. <u>Land troops still in a sea territory after moving are removed from play</u>. They are removed before battle - land troops do not participate in battles at sea.
+<br><br>
+<b>The politics panel</b><br>
+Various factors relating to the well-being of the primary antagonists are tracked on the politics panel, at the top center of the map:
+<br><br>
+<img src="images/politics_panel.png"/>
+<br><br>
+<u>City count</u> shows the current number of cities directly controlled by each side. It does not count the cities of any other allied states. Though the large-city icon is used, the count is of all cities regardless of size. These counts adjust each round as Athens and Sparta gain or lose cities through war and rebellion.
+<br><br>
+<u>Goodwill counts</u> show the general relation each side has with four parties: its own allies, the initially neutral states of Argos and Crete, and the Persian Empire. The count runs from zero to 99 - it may temporarily go above 99 but will be adjusted downward to this maximum. 
+<br><br>
+Generally speaking, higher numbers are better. Specifics are detailed below.
+<br><br>
+<b>A word on "allies"</b><br>
+The term ally in the game refers to cities under the direct control of a power - not to other powers with an "allied" relationship. So for example, the city of Piraeus is an ally of Athens, while the player power Corcyra is an allied state of Athens.<sup>1</sup>
+<br><br>
+<b>Economy</b><br>
+Cities are the source of all revenue. There are two types of revenue: PUs, basically representing manpower, and silver, representing monetary wealth. Manpower dictates how many troops you can have on the board, and silver dictates how far you can move them.
+
+<br><br>
+<b>Units</b><br>
+There are two basic types of units: Troops and cities.
+
+<br><br>
+<u>Troops</u><sup>2</sup>
+<table width="90%" border="0" cellpadding="3" align="center">
+	<tr>
+		<th>
+		Image
+		</th>
+		<th>
+		Name
+		</th>
+		<th>
+		Description
+		</th>
+		<th>
+		Attack
+		</th>
+		<th>
+		Defense
+		</th>
+		<th>
+		Special
+		</th>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td align="center">
+		<img src="images/hoplite.png"/>
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Hoplite
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The backbone of the classical army, the hoplite was a self-equipped heavy infantry soldier. Bronze helmet, breastplate, greaves, and shield were standard, with a spear and short sword as weapons.
+		</td>
+		<td align="center">
+		3
+		</td>
+		<td align="center">
+		4
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		When defending a coastal territory against triremes, each hoplite subtracts 3 from 1 trireme's attack strength.<sup>3</sup>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+		<img src="images/peltast.png"/>
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Peltast
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Crucial support for the heavy infantry was the light-armed and highly mobile peltast. Armed with a helmet, often-nonmetal shield, and several javelins for throwing. A short sword or dagger was also often carried.
+		</td>
+		<td align="center">
+		1
+		</td>
+		<td align="center">
+		3
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Each peltast adds 1 to both attack and defense strength for up to 3 allied hoplites. 
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td align="center">
+		<img src="images/trireme.png"/>
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Trireme
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The mighty warship of classical antiquity, the trireme could be rowed at incredible speeds by its crew of 170 working three banks of oars. Its primary tactic was ramming other ships, though triremes also carried marines for ship-to-ship or landing operations.
+		</td>
+		<td align="center">
+		4
+		</td>
+		<td align="center">
+		3
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Gains 1 strength point when defending a coastal territory (as opposed to open sea). Can blitz coastal and open-sea waypoints (not cities) - and each trireme adds this blitz ability to 1 accompanying peltast or hoplite. Cannot enter inland cities.
+		</td>
+	</tr>
+</table>
+<font face="Calibri, sans-serif"><font size=4>
+<br><br>
+<u>Troop cost and upkeep</u><br>
+All troops cost 1 PU to build, and another PU at the end of the turn to support. The upshot is that a nation's army size is dictated by its income in PUs. PUs represent the available manpower of a state in terms of citizens of the right age and with the means to go to war - costs associated with arming troops were largely borne by private citizens. Though soldiers in the field did receive pay, it's deemed negligible in the game compared to the cost in qualified citizens themselves.
+
+<br><br>
+Triremes cost a further 3 silver to build, and 1 silver per turn to maintain. Ships especially drew on a city-state's treasury for costly construction and maintenance. Though their citizen-captains also provided operational money, the triremes were usually owned by the state.
+
+<br><br>
+<u>Troop movement</u><br>
+All troops have 99 movement points per turn, which is functionally unlimited. However, each unit moving each space costs 1 silver. So sending large armies long distances is very pricey.
+<br><br>
+There are also the terrain restrictions noted above - hoplites and peltasts may move through sea territories (as a sea-faring people, they had plenty of unarmed merchant and transport vessels to use for sea crossings), but may not stop there, and triremes may not move to inland territories. Most cities, however, are costal, open to triremes, hoplites, and peltasts.
+<br><br>
+<i>Blitzing</i> allows triremes, during combat movement, to capture undefended waypoints (coast or sea only) and keep moving to the next city or way point. Hoplites and peltasts normally must stop at the first enemy territory they reach, but they may also blitz if moved with triremes - one hoplite or peltast per trireme in the group gains this ability.
+<br><br>
+Blitzing is not allowed through neutral way points.
+<br><br>
+<u>Cities</u><br>
+Cities are the source of income, and the "factories" which produce other units:
+<table width="90%" border="0" cellpadding="3" align="center">
+	<tr>
+		<th>
+		Image
+		</th>
+		<th>
+		Name
+		</th>
+		<th>
+		Unit production
+		</th>
+		<th>
+		Income - PUs*
+		</th>
+		<th>
+		Income - Silver*
+		</th>
+		<th>
+		Special
+		</th>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td align="center">
+		<img src="images/city.png"/>
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City
+		</td>
+		<td align="center">
+		5
+		</td>
+		<td align="center">
+		3/6/4
+		</td>
+		<td align="center">
+		3/2/2
+		</td>
+		<td align="center">
+		-
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+		<img src="images/city_large.png"/>
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Large city
+		</td>
+		<td align="center">
+		10
+		</td>
+		<td align="center">
+		7/12/8
+		</td>
+		<td align="center">
+		5/4/4
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Large cities are considered fortified and add 1 extra die for each peltast or hoplite defending it, up to 5 extra dice. 
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td align="center">
+		<img src="images/metropolis.png"/>
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Metropolis
+		</td>
+		<td align="center">
+		15
+		</td>
+		<td align="center">
+		12/18/14
+		</td>
+		<td align="center">
+		8/6/6
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Metropolises are considered fortified and add 1 extra die for each peltast or hoplite defending it, up to 10 extra dice. 
+		</td>
+	</tr>
+</table>
+<font face="Calibri, sans-serif"><font size=4>
+<i>*Income varies depending on the city's owner. Figures are for Athens/Sparta/Small state. All small states (Italy, Sicily, Corcyra, Macedonia, Thessaly, Argos, and Crete) are identical in this regard.</i>
+<br><br>
+<b>City damage</b><br>
+Each time a large city or metropolis is taken over, it is reduced one rank in size - metropolis to large city, large city to city. 
+It will rebuild up a size, but not till after the following turn's placement phase. While at reduced size, cities' income and production capacity are adjusted accordingly.
+<br><br>
+The ravages of war and damage to infrastructure and defenses are thus represented in the game. This happens even if no battle took place, but an undefended city was captured. It's always disruptive to business to have an army take over one's city.
+<br><br>
+It may even be a tactic: Thucydides is stiff with references to troops "laying waste the land" to deprive the other side of valuable resources.
+<br><br>
+<b>The turn</b><br>
+Each player's turn consists of the following phases:
+<ol>
+<li>Purchase: Players may buy as much as they can afford based on PUs and silver left over from the previous turns. Players may want to save some PUs to cover costs for violating neutrality (5 PUs) and, for Athens and Sparta, sending embassies.</li>
+<li>Placement: Players may place their new units in any cities they own. Cities are limited to 5 units, large cities to 10, and metropolises to 15.</li>
+<li>Combat movement: Players may move any and all troops along any legal lines, stopping at the first enemy territory. The exception is triremes, which may blitz empty way points, conquering them and moving on to the next territory. Each trireme confers its blitzing ability on 1 accompanying hoplite or peltast. Blitzing is not allowed through neutral territories or those occupied by enemy units - troops or cities. <u>Reminder: Each space moved by each unit costs 1 silver</u>.</li>
+<li>Battle: Any units ending their movement in a territory with enemy units in it must fight. The attacker has the option to retreat.</li>
+<li>Assembly: Athens and Sparta may take certain actions, such as declaring war or sending embassies. Small states do not have an assembly phase at first. It's possible, later in the game, for small cities to declare their independence and also take political action during the assembly phase.</li>
+<li>Noncombat movement: Players may move all troops which did not participate in a battle, provided they have enough silver left to do so.</li>
+<li>Troop payment: Players collect income based on the cities they control and immediately pay the troops, at the rate of 1 PU each for each hoplite, peltast, and trireme, and 1 silver for each trireme.</li>
+</ol>
+<b>The powers</b><br>
+There are seven sides in the game meant for human players, originally allied thus: Athens, Corcyra, Italy, and Thessaly vs. Sparta, Macedonia, and Sicily.<sup>4</sup> These are the <i>player powers</i>.
+<br><br>
+There are also two AI-played states, Argos and Crete, which start the game neutral and would prefer to remain that way.
+<br><br>
+In the wings is the Persian Empire, which quietly roots for Sparta if for no other reason than to see Athens suffer for the embarrassment the Persian army suffered at Marathon. That moral support has a chance of turning into material support for Sparta later in the game.
+<br><br>
+<u>Athens</u> is mighty, rich in silver and ships. Her advantage is mobility: While Sparta can build a juggernaut of a land army, Athens can keep her busy on several fronts. 
+<br>
+<br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"The fact is that we have reached a stage where we are forced to plan new conquests and forced to hold on to what we have got, because there is a danger that we ourselves may fall under the power of others unless others are in our power." - Nicias to the Athenian assembly on the eve of the Sicilian expedition, 415 BCE. Thucydides' <i>History of the Peloponnesian War</i>, VI, 21.
+		</td>
+	</tr>
+</table>
+<br><font face="Calibri, sans-serif"><font size=4>
+
+Aside from relative paucity of land forces, Athens' biggest weakness is that her allies don't like her. In fact, she starts the game with a low allies goodwill, already putting her at risk for rebellion.
+<br><br>
+So save PUs for embassies to your allies - a smart Spartan player will be sending them every turn. Indeed, the Spartans expressed their cause of war as one of liberation from Athenian tyranny, and historically were able to convince many key Athenian allies to switch sides.
+<br><br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"People's feelings were generally very much on the side of the Spartans, especially as they proclaimed that their aim was the liberation of Hellas.... So bitter was the general feeling against Athens, whether from those who wished to escape from her rule or from those who feared that they would come under it." - Mood at the outbreak of war, 431 BCE. Thucydides' <i>History of the Peloponnesian War</i>, II, 8.
+		</td>
+	</tr>
+</table><br>
+<font face="Calibri, sans-serif"><font size=4>
+<u>Sparta</u> is the opposite of Athens in many ways. She is not rich in silver or ships, but has plenty of PUs for building land units. But since moving land units is expensive, she must wield her massive forces wisely and try to finish one campaign before beginning the next. 
+<br><br>
+One advantage Sparta has is a decent relationship with the Persian Empire. Should she nuture that relationship over time, it could result in the King of Persia helping to fund the Spartan war effort.
+<br><br>
+Also, notably, the King will grant Sparta a rich gift if all enemies of Sparta are kicked out of Sicily. Persia knows that Sparta's best chance of defeating Athens lies in having only friends to the west.
+<br><br>
+Generally, it is easier for the Spartan player to maintain a high allies goodwill count while working to lower Athens'. This is critical to keep Athens busy dealing with her own rebels, and though Sparta was not free of rebellion herself, historically, it was easier for her to foment rebellion among Athens' allies than the other way around.
+<br><br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"There are other ways open to us for carrying on the war. We can foster revolts among their allies - and this is the best means of depriving them of the revenues on which their strength depends." - Corinthian embassy to Sparta, 432 BCE. Thucydides' <i>History of the Peloponnesian War</i>, I, 122.
+		</td>
+	</tr>
+</table><br>
+<font face="Calibri, sans-serif"><font size=4>
+The smaller states start allied to one side or the other and their political arrangements - war and peace - are handled by the major power.
+<br><br>
+<u>Italy and Sicily players take note</u>: Each has two cities in the other's territory at the beginning of the game. Italy controls Catania and Segesta in Sicily, and Sicily controls Locri and Tarentum in Italy.
+<br><br>
+<u>Italy, Sicily, Corcyra, Macedonia, and Thessaly may declare independence</u> if their city counts reach 10. Once independent, a former allied state is at peace with the power she left and may handle her own diplomatic relations henceforward.
+<br><br>
+It's even conceivable an allied state of Sparta, for example, could declare independence and form relations with Athens, eventually helping Athens fight the war.
+<br><br>
+<b>Rebellion</b><br>
+The lower Athens' or Sparta's allies goodwill count, the larger the chance her allies will rebel. Each turn a major power's allies goodwill is below 90, there's chance (from 10% to 100% depending how low the goodwill has sunk) that the allies will be subject to a rebellion check.
+<br><br>
+If there's a rebellion check, cities outside the home region (Attica for Athens, the Peloponnese for Sparta) have a 1:12 chance of rebelling.
+<br><br>
+Cities that rebel from Athens will be occupied by Pro-Spartan forces, and vice versa. During assembly on following turns, each side has the chance to "court rebels" from the other power, if any. Such courting, if successful, immediately replaces the rebel forces with the player power's.
+<br><br>
+Cities successfully courted may again rebel, being taken over by rebels pro the other side, and being courted back into the original league.
+<br><br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"...practically the whole of the Hellenic world was convulsed, with rival parties in every state - democratic leaders trying to bring in the Athenians, and oligarchs trying to bring in the Spartans....it became a natural thing for anyone who wanted a change of government to call in help from outside." - Frequent revolutions around Hellas during the war. Thucydides' <i>History of the Peloponnesian War</i>, III, 82.
+		</td>
+	</tr>
+</table><br>
+<font face="Calibri, sans-serif"><font size=4>
+Rebel factions may be attacked by anyone, even the side they're for. So if courting fails, conquest is an option.
+<br><br>
+<u>Corinth and Tegea</u> only rebel from Sparta if Argos, Sparta's bitter traditional enemy, is in play. They have a 1:6 chance per rebellion check of joining Argos. If owned by Athens, they have the normal odds of rebellion, and when they rebel, they become Pro-Spartan. 
+<br><br>
+<b>Goodwill modifiers</b><br>
+These are the conditions that alter Athens or Sparta's goodwill count with allies, Argos, Crete, and Persia. Or, in the case of Persia, existing goodwill counts and the conquest of Sicily can result in cash awards to Sparta.
+<br><br>
+Except where otherwise noted, these events happen each turn.
+<table width="90%" border="0" cellpadding="3" align="center">
+	<tr>
+		<th>
+		Event
+		</th>
+		<th>
+		Conditions
+		</th>
+		<th>
+		Effect
+		</th>
+		<th>
+		Notes
+		</th>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies rally
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count below 20
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies +5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Remaining allies are the truly loyal ones and rally to your cause.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies grumble
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count 40-49, allies goodwill 50+
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies are nervous that you're ruling too much territory and their rights will be lost.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies protest
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count above 50, allies goodwill above 35
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -10
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		You're getting too big for your allies who feel you've become an evil empire.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta scares Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count 40-49
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos -2/-3
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos doesn't like how big Athens'/Sparta's empire is. Argos is slightly biased toward Athens, so the effect is greater on Sparta.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta really scares Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count 50+
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos -5/-6
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos really doesn't like how big Athens'/Sparta's empire is. Argos is slightly biased toward Athens, so the effect is greater on Sparta.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta scares Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count 40-49
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Crete -3/-2
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Crete doesn't like how big Athens'/Sparta's empire is. Crete is slightly biased toward Sparta, so the effect is greater on Athens.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta really scares Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count 50+
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos -6/-5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Crete really doesn't like how big Athens'/Sparta's empire is. Crete is slightly biased toward Sparta, so the effect is greater on Athens.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta pleases Persia
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count 30+
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia +5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The King of Persia is pleased with Sparta's success.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens pleases Persia
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		City count below 40
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia +5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The King of Persia is starting to consider Athens less of a threat.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies disturbed by aggression
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta attacks neutral city
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The allies are not pleased you've attacked a city with which you're not at war.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		War weariness
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Every other round starting on the 6th, and every round starting on the 30th
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The length of the war is starting to take its toll on the allies' faith.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Victory in battle
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens captures city from Sparta/Sparta captures city from Athens
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies +5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The allies gain some faith in the cause.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Defeat in battle
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens loses city to Sparta/Sparta loses city to Athens
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Defeat always smarts.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia gains faith in Sparta
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta city count 25+, Athens city count below 30
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia +10
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The King of Persia is pleased with Sparta's progress over Athens.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia loses faith in Sparta
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta city count below 20, Athens city count 40+
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia -10
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The Persian Empire isn't so sure Sparta can rise up to meet the challenge of Athenian might.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia honors Sparta
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		All enemies of Sparta driven from Sicily
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia +30, silver +50
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The King of Persia considers this victory a sign that Sparta is truly a contender for rule of all Hellas. This is a one-time bonus.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia subsidizes Sparta
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta's Persia goodwill 75+, Athens' Persia goodwill below 50
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Silver +25
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The Persian Empire is taking a material interest in Spartan victory. This bonus applies each turn the conditions are met.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia supports Sparta
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta's Persia goodwill 90+, Athens' Persia goodwill below 80
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Silver +50
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The Persian Empire is now fully on Sparta's side. Can be cumulative with the smaller bonus and applies each turn the conditions are met.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta war with Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta declares war on Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -15, Crete -10, Persia +25
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The Persian Empire is likes the move, but allies are worried about a new, powerful enemy, and Crete is not pleased, thinking she might be next. One-time effect.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta war with Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta declares war on Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -30, Argos -25, Persia +15
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The allies are shocked and appalled - Crete was never an enemy. Argos just knew all your talk of "liberation" was a smokescreen for your imperial intentions. Persia is pleased, but not too impressed. One-time effect.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens war with Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens declares war on Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -25, Crete -25, Persia +10
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The allies are very unhappy - Argos could have been a valuable friend. Crete fears your expansionist plans will not stop on the Peloponnese. Persia is mildly impressed. One-time effect.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens war with Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens declares war on Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies -15, Argos -15, Persia +15
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The allies are nervous but understand the move; Athens must control the sea. Argos looks on nervously. Persia thinks it's a great idea and applauds you. One-time effect.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens ties with Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Successful Athenian embassy to Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens-Argos +5, Sparta-Argos -5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos strengthens its bonds with Athens and dislikes Sparta more. Once per embassy.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens ties with Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Successful Athenian embassy to Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens-Crete +5, Sparta-Crete -3
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Crete strengthens its bonds with Athens and dislikes Sparta more. Once per embassy.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta ties with Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Successful Spartan embassy to Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta-Argos +5, Athens-Argos -3
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos strengthens its bonds with Sparta and dislikes Athens more. Once per embassy.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta ties with Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Successful Spartan embassy to Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta-Crete +5, Athens-Crete -5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Crete strengthens its bonds with Sparta and dislikes Athens more. Once per embassy.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies placated 
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Successful embassy to allies
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies +5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		The allies are feeling a little better about things. Once per embassy.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta ingratiates herself to the King
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Successful embassy to Persia
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Persia +5 for embassy-sender, -2 for other side
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta strengthens ties with Persia, weakens them for other side. Once per embassy.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies rejoice 
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta makes alliance with Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos +15, Allies +15/Argos +20, Allies +10
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens fares better with the allies than Sparta when making alliance with Argos.<sup>5</sup>  One-time bonus.
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Allies rejoice 
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens/Sparta makes alliance with Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos +35, Allies +20/Crete +30, Allies +5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens fares better with the allies than Sparta when making alliance with Crete.<sup>5</sup>  One-time bonus.
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Friendship strengthened 
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Successful passage treaty with Argos/Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos/Crete +5
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Your treaty strengthens the bond between you. One-time bonus.
+		</td>
+	</tr>
+</table>
+<font face="Calibri, sans-serif"><font size=4>
+<br><br>
+<b>Political action</b><br>
+Each turn after combat, Athens and Sparta have an assembly phase, during which political actions may be taken. These change over time. All, except declaring war and offering peace, cost 5 PUs.
+<br><br>
+<u>Declaring war</u><br>
+Athens and Sparta and their respective allied states begin the game in a state of war. Both start neutral with Argos and Crete. Either may declare war on Argos or Crete, and later in the game, any independent smaller state.
+<br><br>
+When a great power declares war, its allied states also go to war.
+<br><br>
+Declaring war on Argos or Crete may be an expedient way to gain control over their territories, but take note: AI players cheat. When a state of war exists, both Argos and Crete receive bonus troops and money and may automatically attack with a large force, depending on what cities the other party controls. After the initial attack, which is scripted in the game design, the AI takes over, receiving bonus resources each round.
+<br><br>
+A declaration of war takes effect immediately, but since assembly is <i>after</i> the declaring player's combat move, the other side will have the first chance to attack on its next round.
+<br><br>
+Players may not go to war with Persia, which never puts troops on the board.
+<br><br>
+<u>Passage treaties</u><br>
+Athens and Sparta may attempt to buy passage through Argive or Cretan territory. This option is only available if the target party's goodwill is 30 or above, and becomes more likely to succeed the higher the goodwill score. Once established, the passage treaty is in effect till cancelled by one side or the other.
+<br><br>
+Passage has per-turn PU and silver costs associated with it, and may be ended by the player power, or may be revoked by the AI player if goodwill again drops too low.
+<br><br>
+While Athens or Sparta enjoys a passage treaty, their allies likewise may pass.
+<br><br>
+<u>Declaring independence</u><br>
+Once smaller states reach a city count of 10 or more, they have the option to declare independence from Athens or Sparta. If they do so, they enter a state of peace with the former allied power, and are free to make other political arrangements for themselves each turn.
+<br><br>
+Political actions for independent smaller states are limited to making peace and war, and offering alliances to other independent states.
+<br><br>
+<u>Offering peace</u><br>
+Peace may only be offered among player powers - and the small states may only make peace arrangements after declaring independence from Athens or Sparta. 
+<br><br>
+A peace offer must be accepted by the other party.
+<br><br>
+<u>Offering alliance</u><br>
+Independent smaller states may offer each other alliance. While they may be at peace or war with Athens or Sparta, they may never ally with either once independent.
+<br><br>
+<u>Goodwill embassies</u><br>
+Athens and Sparta have the option of sending goodwill embassies to their allies, Argos, Crete, and Persia. Depending on current goodwill with any party, the embassy has a greater or lesser chance of success. Chances of success increase with each failed embassy, so the investment is guaranteed to pay off eventually.
+<br><br>
+Usually only three such embassies may be sent to any party per turn; however, successful embassies may raise the goodwill score with a party to the next level, increasing the odds of success and granting up to three more attempts.
+<br><br>
+<u>Foment rebellion</u><br>
+This tactic is particularly effective for Sparta - successful embassies to foment rebellion among the other player's allies lower the allies goodwill, and increase the odds of a rebellion check. 
+<br><br>
+While Athens can do this as well, it's not as effective at the beginning of the game since Sparta has fewer allies, and most of the allies in the Peloponnese are not subject to the rebellion check. Notable exceptions are Tegea and Corinth, which, if they rebel, join Argos. 
+<br><br>
+Sparta starts with a higher allies goodwill, but must maintain it while lowering Athens' to be effective. Historically, vigorous diplomatic action on Sparta's part to get key Athenian allies to rebel was a deciding factor in the war, along with success in Sicily and working with Persia. Though Athens showed remarkable resilience. 
+<br><br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"And yet, after losing most of their fleet and all the other forces in Sicily, with revolutions already breaking out in Athens, they none the less held out for eight years against their original enemies, who were now reinforced by the Sicilians, against their own allies, most of which had revolted, and against Cyrus, son of the King of Persia, who later joined the other side and provided the Peloponnesians with money for their fleet." - Athens' many troubles at the war's end. Thucydides' <i>History of the Peloponnesian War</i>, II, 65.
+		</td>
+	</tr>
+</table><br>
+<font face="Calibri, sans-serif"><font size=4>
+Cities in rebellion may join the other side through the "court rebels" political action.
+<br><br>
+<u>Courting rebels</u><br>
+Cities in rebellion from Athens or Sparta are sympathetic to the other side, and may be courted. This has a high chance of success, 1:4. Successfully courted rebels join the courting side; the rebel troops are replaced with those of the new ally.
+<br><br>
+New allies are subject to rebellion checks and may end up going back to the other side.
+<br><br>
+<u>Allying with Argos or Crete</u><br>
+When Athens' or Sparta's goodwill with Argos or Crete is 65+, and the other empire's is below 40, she may offer an alliance to the AI player. If accepted, the AI player becomes allied with the major power and her allied states and goes to war with the other state.
+<br><br>
+<u>Selling cities to Persia</u><br>
+In a completely ahistorical turn of events, the Persian Empire will, if Athens' Persia goodwill is high enough, offer to buy certain cities in Asia from Athens,one at a time. If Athens agrees to the sale, she gets the PUs and silver offered and the city immediately converts to Persian ownership. The sale is permanent - no side is permitted to attack the newly Persian cities. Persia never places troops on the board.
+<br><br>
+<u>Surrendering</u><br>
+If the outlook of the war is too bleak, Athens or Sparta will get an option in assembly to surrender to the other side. This action immediately cedes control of the capital - Athens or Sparta - to the other side, removes all the surrendering player's troops, PUs, and silver, and sets all of the surrendering player's allies to "pacified." Pacified cities remain in play and may be taken over by any side.
+<br><br>
+This is not necessarily the end of the war, though. If other states are still at war with the remaining major power, they may continue to prosecute the war.
+<br><br>
+<b>Capturing capitals, pacifying states, and eliminating players</b><br>
+When a human or AI state's capital is captured, she loses all her PUs to the capturing state. She retains her troops and silver, though, and may retake her capital.
+<br><br>
+Athens and Sparta have one turn to retake their capitals. If they fail to do so, they are pacified. 
+<br><br>
+Argos and Crete are pacified immediately if they lose their capitals.
+<br><br>
+The other small states each have three key cities - they are not pacified till all three are captured.
+<table width="90%" border="0" cellpadding="3" align="center">
+	<tr>
+		<th>
+		State
+		</th>
+		<th>
+		Capital
+		</th>
+		<th>
+		Other key cities
+		</th>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Athens
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		-
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sparta
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		-
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Italy
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Neapolis
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Cumae, Rhegium
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Sicily
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Syracuse
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Himera, Selinus
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Corcyra
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Corcyra
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Epidamnus, Elaea
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Macedonia
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Pella
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Vergina, Aegae
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Thessaly
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Larissa
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Pagasa, Tricca
+		</td>
+	</tr>
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Argos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		-
+		</td>
+	</tr>
+	<tr bgcolor="#cccccc">
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Crete
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		Cnossos
+		</td>
+		<td><font face="Calibri, sans-serif"><font size=4>
+		-
+		</td>
+	</tr>
+</table>
+<font face="Calibri, sans-serif"><font size=4>
+When a state is pacified, all its troops are removed, though its cities remain in play. Its diplomatic status is changed to "Pacified," which is actually a state of war with all players. Since the pacified state has no troops, these cities may be automatically captured by troops from any other state.
+<br><br>
+A pacified player state is, therefore, functionally eliminated from the game.
+<br><br>
+<b>Object of the game</b><br>
+The object is pan-Hellenic peace. This is achieved when no belligerent states remain. As soon as a state of war no longer exists among any of the states, pan-Hellenic peace is achieved and the Peloponnesian War is deemed over.
+
+<br><br><hr width="15%"><br>
+<font face="Calibri, sans-serif"><font size=4>
+
+<b>Historical notes</b><br>
+<sup>1</sup>To the Hellenes of this period, the term ally could, for all intents and purposes, mean subject. 
+<br><br>
+Modern historians refer to the Delian and Peloponnesian Leagues to mean the system of treaties which gave Athens and Sparta, respectively, their leadership roles over other states. But to the Hellenes of the day, even in legal documents, it was always "Athens and her allies" and "Sparta and her allies." 
+<br><br>
+Athens, a democracy, was actually much more imperial in her management of her allies than Sparta. When Athens stepped up to take leadership in the war against Persia earlier in the century, many cities eagerly became her allies, giving money and ships to the war effort and letting the Athenians bear the brunt of the fighting.
+<br><br>
+After that war, Athens never let her "allies" go - they became tribute-paying subject states which were often brutally punished for trying to secede. This is represented in the game by frequent rebellions when Athens' allies goodwill count dips too low through mismanagement or Spartan meddling.
+<br><br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"The object of the alliance was the liberation of the Hellenes from Persia, not the subjugation of the Hellenes to Athens.... But when we saw they were becoming less and less antagonistic to Persia and more and more interested in enslaving their own allies, then we became frightened." - Mytilenian embassy to Sparta, 428 BCE. Thucydides' <i>History of the Peloponnesian War</i>, III, 10.
+		</td>
+	</tr>
+</table><br>
+<font face="Calibri, sans-serif"><font size=4>
+Though Sparta built an empire herself, the terms she imposed tended to be less imperial. She'd arrange to put sympathetic leadership into power in allied states, usually oligarchies like herself, and never levied tribute on as large a scale or regular a schedule as Athens. This is represented in the game by her relative poverty in silver. Troops, however, she had in plenty from the populous and warlike cities of the Peloponnese.
+
+<br><br><hr width="15%"><br>
+<font face="Calibri, sans-serif"><font size=4>
+<sup>2</sup><font face="Calibri, sans-serif"><font size=4>Of course the ancient Hellenes had more diverse troops than the three represented in this game. They did employ hoplites, primarily, as their main-force heavy infantry, but also fielded cavalry to devastating effect. A variety of light troops - archers, slingers, javelin-throwers, peltasts, and other light infantry - provided support, and were particularly effective on rugged terrain because of their mobility.
+<br>
+<br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"Though they drove back the light troops at any point where they ran in and approached too closely, they still fought back even in retreat, since they had no heavy equipment and could easily outdistance their pursuers over ground where, since the place had been uninhabited up till then, the going was rough and difficult and where the Spartans in their heavy armour could not press their pursuit." - Spartan hoplites struggle against Athenian light troops at Pylos, 425 BCE. Thucydides' <i>History of the Peloponnesian War</i>, IV, 33.
+		</td>
+	</tr>
+</table>
+<font face="Calibri, sans-serif"><font size=4>
+<br>
+Indeed, heavy troops without light-troop support often faced horrible odds.
+<br><br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"Demonsthenes did not wait for the Locrian reinforcements who were due to arrive and who would have made up his main deficiency, which was in light-armed javelin-throwers.... [The enemy's light troops] came running down from the hills on all sides, hurling their javelins, falling back whenever the Athenian army advanced, and coming on again as soon as it retired." - Disastrous Athenian expedition against the Aetolians, 427 BCE. Thucydides' <i>History of the Peloponnesian War</i>, III, 97-98.
+		</td>
+	</tr>
+</table><br>
+<font face="Calibri, sans-serif"><font size=4>
+The crucial role of light troops in the battles of the day are represented by the peltast unit's +1 support of up to three allied hoplites on attack and defense. 
+<br>
+<br>
+In siege operations, they employed counter-wall building and many devastating engines for sieges that could last months or even years.
+<br><br>
+At sea, the trireme was really the only effective warship, though design changes allowed less-experienced crews to have advantages over the mighty Athenians, especially at Sicily.
+<br><br>
+But this is a strategic-level game, not tactical, and it's hoped the three troop types provided will be enough to give a taste of 5th-century warfare.
+
+<br><br><hr width="15%"><br>
+<font face="Calibri, sans-serif"><font size=4>
+<sup>3</sup><font face="Calibri, sans-serif"><font size=4>The trouble with attacking a line of hoplites from the gangplanks of beached triremes was one the Spartans learned the hard way at Pylos, where a smaller Athenian force held the beach against a massive naval assault. The Athenians already knew how hard it was.
+<br><br>
+<table width="90%" bgcolor="#cccccc" border="0" cellpadding="3" align="center">
+	<tr>
+		<td><font face="Calibri, sans-serif"><font size=4>
+"'I call upon you, as Athenians who know from experience all about landing from ships on foreign shores and how impossible it is to force a landing if the defenders stand firm and do not give way through fear of the surf or the frightening appearance of the ships as they sail in - remembering this, stand firm now yourselves, meet the enemy right down at the water's edge, and preserve this position and our own lives.'" - Demonsthenes heartens his outnumbered troops at Pylos before a Spartan naval assault, 425 BCE. Thucydides' <i>History of the Peloponnesian War</i>, IV, 10.
+		</td>
+	</tr>
+</table><br>
+<font face="Calibri, sans-serif"><font size=4>
+This bonus applies only to triremes, which must necessarily attack from the sea if they're to be involved in the battle. Land troops attacking coastal territories are deemed to have marched along the coast, having landed elsewhere if a sea crossing was involved.
+
+<br><br><hr width="15%"><br>
+<font face="Calibri, sans-serif"><font size=4>
+<sup>4</sup><font face="Calibri, sans-serif"><font size=4>This historical reality was, of course, much more complex. Though a more-or-less unified Sicily did eventually arise under the leadership of Syracuse, this was not till well into the war during Athens' disastrous campaign in Sicily starting in 415. There was no league in Italy like what the game proposes, and Thessaly and Macedonia were also not so heterogeneous as depicted. (And a unified Crete with any political power is pure invention.)
+<br><br>
+Nor were alliances so cast in iron. They were largely city-by-city affairs. But the game setup does represent the general state of side-taking among the currents of action.
+
+<br><br><hr width="15%"><br>
+<font face="Calibri, sans-serif"><font size=4>
+<sup>5</sup><font face="Calibri, sans-serif"><font size=4>Athens stands more to gain, from a goodwill standpoint, than Sparta when making alliances with the AI states for two reasons. Firstly, Argos - a democracy - was traditionally a bitter enemy of Sparta, even sending troops against her in partnership, if not outright alliance, with Athens. Sparta's allies would still be hard-pressed to trust her even if Sparta did make an alliance with Argos.
+<br><br>
+And Crete, an island, would also not have had natural appeal to the largely land-based Peloponnesian League, which would face extra trials and expenses in coming to Crete's defense. (Though they did help in Sicily, the brunt of that campaign was borne by the Syracusians. Crete had no such mighty leader state.)
+<br><br>
+This matters little in the game, however, where it's much more crucial and difficult for Athens to boost her allies goodwill than Sparta, without constant success and expansion. 
+
+<br><br><hr width="15%"><br>
+<font face="Calibri, sans-serif"><font size=4>
+<b>Conclusion</b><br>
+
+The war was a milestone in Western history not because it eradicated or greatly altered the culture of one side or the other (it didn't), but because it set the stage for a new kind of warfare. The Spartans were expecting quick victory in a pitched battle before the walls of Athens; this was the traditional, seasonal kind of campaign the Greeks were used to. The Athenians denied them this, keeping on Pericles' advice within the artificial island of Athens and Piraeus, surrounded by their Long Walls, and using their sea power to import goods Spartan raiding denied them locally as well as to carry the war to distant fronts.
+<br><br>
+The concept of super powers fighting a largely proxy war through puppet states was new at the time, and that's how the historical war played out, with most battlefields far from either primary antagonist's territory.
+<br><br>
+Both being Greek states, with the same general values, religion, and culture, it's unlikely the defeat of one side and victory of another had any great impact on the course of history. Except that the idea of the city-state seems, in this war, to have reached its limit; with relatively small numbers of citizens to call on and without the later idea of enfranchizing foreigners into their ranks, the Greek <i>polis</i> had a natural limit of scale, which both sides pushed to bursting at this time.
+<br><br>
+It's even been surmized that this war really gave birth to the idea of professional armies in the West. Both sides increasingly relied on paid mercenaries to operate around the large theater, and men who had traditionally gone out to fight for a few months in the summer ended up spending years at distant posts. 
+<br><br>
+Where the Athenians and Spartans really differed was structure of the state; the war can be seen as an ideological struggle between the concept of Athenian democracy on the one hand, which opponents considered absurd as a form of government, and Spartan oligarchy on the other. Though Sparta seemed to prove her point with final victory, the oligarchy she imposed upon the defeated Athens was cast out within a year and things returned, more or less, to prewar usual. 
+<br><br>
+Rather, pre-empire usual is a better way to put it. No longer masters of a vast maritime empire, the Athenians never again rose to prominence. And Sparta, never having been imperial in her rule, didn't get the chance again. Other states and empires would rise to carry on the legacy. 
+
+			</font>
+			
+		</td>
+	</tr>
+	</table>
+	
+	</body>
+</html>
